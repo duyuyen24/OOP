@@ -1,6 +1,4 @@
 README.md
-linux_app.cflags
-linux_app.cxxflags
 source/app/Makefile.mk
 source/app/ex1/Makefile.mk
 source/app/ex1/circle.cpp
