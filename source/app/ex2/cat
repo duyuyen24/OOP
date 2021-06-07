@@ -1,0 +1,6 @@
+#include "cat"
+
+cat::cat()
+{
+
+}

@@ -21,14 +21,17 @@
 #include <iostream>
 #include <sstream>
 #include <iostream>
+/*
 #include "rectangle.h"
 #include "circle.h"
-
-//#include "shape.h"
+*/
+#include "dog.h"
 
 using namespace std;
 
 int main() {
+	//ex1
+/*
 	rectangle r1, r2;
 	circle c1, c2;
 	Shape const *shapes[] = {
@@ -47,6 +50,20 @@ int main() {
 	s = largestS(shapes, nS);
 	printf("largetsShape s(x=%d,y=%d)\n", getX(s), getY(s));
 
+	drawShape(shapes, nS);
+*/
+
+	//ex2
+	Dog a1, a2;
+	Animal const *shapes[] = {
+		&a1.super,
+		&a2.super,};
+	Animal const *animal;
+	uint32_t nS = sizeof(shapes) / sizeof(shapes[0]);
+	dog_ctor(&a1, 1, 10);
+	dog_ctor(&a2, 2, 20);
+	printf("Age: %d\n",  getAge(&a1.super));
+	printf("Weight: %d\n", getW(&a1.super));
 	drawShape(shapes, nS);
 	return 0;
 }

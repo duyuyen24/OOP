@@ -9,6 +9,16 @@ source/app/ex1/rectangle.cpp
 source/app/ex1/rectangle.h
 source/app/ex1/shape.cpp
 source/app/ex1/shape.h
+source/app/ex2/Makefile.mk
+source/app/ex2/animal.cpp
+source/app/ex2/animal.h
+source/app/ex2/circle.h
+source/app/ex2/dog.cpp
+source/app/ex2/dog.h
+source/app/ex2/rectangle.cpp
+source/app/ex2/rectangle.h
+source/app/ex2/shape.cpp
+source/app/ex2/shape.h
 source/app/main.cpp
 source/app/rectangle.cpp
 source/app/rectangle.h
