@@ -1,7 +1,7 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
-#include "test/shape.h"
+#include "ex1/shape.h"
 #include <stdint.h>
 
 typedef struct {

@@ -2,7 +2,7 @@
 #define RECTANGLE_H
 
 #include<stdint.h>
-#include "test/shape.h"
+#include "shape.h"
 
 typedef struct {
 	Shape super;
