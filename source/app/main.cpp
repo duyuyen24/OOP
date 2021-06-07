@@ -26,7 +26,7 @@
 #include "circle.h"
 */
 #include "dog.h"
-
+#include "pig.h"
 using namespace std;
 
 int main() {
@@ -54,17 +54,17 @@ int main() {
 */
 
 	//ex2
-	Dog a1, a2;
+
+	Dog a1;
+	Pig a2;
 	Animal const *shapes[] = {
 		&a1.super,
 		&a2.super,};
-	Animal const *animal;
 	uint32_t nS = sizeof(shapes) / sizeof(shapes[0]);
 	dog_ctor(&a1, 1, 10);
-	dog_ctor(&a2, 2, 20);
-	printf("Age: %d\n",  getAge(&a1.super));
-	printf("Weight: %d\n", getW(&a1.super));
+	pig_ctor(&a2, 2, 20);
 	drawShape(shapes, nS);
+
 	return 0;
 }
 

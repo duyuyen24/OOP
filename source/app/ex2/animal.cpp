@@ -11,13 +11,7 @@ void animal_ctor(Animal *const me, uint16_t age, uint16_t w){
 	me->weight = w;
 
 }
-uint16_t getAge(Animal * const me){
-	return me->age;
-}
 
-uint16_t getW(Animal * const me){
-	return me->weight;
-}
 static void Animal_draw_(Animal const * const me){
 	assert(0);
 }
@@ -28,4 +22,13 @@ void drawShape(Animal const * shapes[], uint32_t nS){
 		Animal_draw(shapes[i]);
 	}
 }
+
+uint16_t getAge(Animal * const me){
+	return me->age;
+}
+
+uint16_t getW(Animal * const me){
+	return me->weight;
+}
+
 

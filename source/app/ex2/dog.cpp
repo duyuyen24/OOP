@@ -14,6 +14,6 @@ void dog_ctor(Dog *const dog, uint16_t age, uint16_t w)
 
 void Dog_draw_(Animal const * const me){
 	Dog *const me_ = (Dog*)me;
-	printf("Dog_draw:gau gau gau, Weight: %d\n", me_->super.weight);
+	printf("Dog says: wo wo; Weight: %d\n", me_->super.weight);
 }
 
