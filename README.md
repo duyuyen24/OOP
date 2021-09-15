@@ -9,3 +9,5 @@ Part 3: Polymorphism in C++.
 Part 4: Polymorphism in C.
 
 [Self-Programming Related Examples as a result](https://github.com/duyuyen24/OOP/tree/main/source/app/ex1)
+
+>[course source](https://www.state-machine.com/video-course/)
